@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      background-color: #f6d050;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 95vh;
+    }
+    .shadow {
+      height: 238px;
+      width: 176px;
+      background-color: black;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+    .box {
+      height: 227px;
+      width: 155px;
+      background-color: white;
+      border-radius: 10px;
+      /* display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; */
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      border: 1px solid black;
+      padding: 10px 10px 0px 10px;
+    }
+    .imageone {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .learn {
+      background-color: #f5cf46;
+      padding: 3px 6px;
+      border-radius: 3px;
+      font-weight: bold;
+      border: none;
+      font-size: 15px;
+    }
+    .learntwo {
+      font-size: 6px;
+      margin-right: 90px;
+      margin-top: -3px;
+    }
+    .learnthree {
+      margin-right: 28px;
+      margin-top: 3px;
+    }
+    .learnfour {
+      font-size: 7px;
+      margin-top: -16px;
+      margin-right: 29px;
+    }
+
+    .imagetwo {
+      height: 15px;
+      /* margin-top: 3px; */
+      /* margin-right: 137px; */
+    }
+    .learnfive {
+      font-size: 7px;
+      /* margin-top: -12px; */
+      /* margin-right: 75px; */
+      font-weight: bold;
+    }
+    .boxtwo {
+      margin-top: 10px;
+    }
+    .boxthree {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+  </style>
+  <body>
+    <div class="shadow">
+      <div class="box">
+        <img src="/images/illustration-article.svg" class="imageone" />
+           <button class="learn">Learning</button>
+           <!-- <a href="">Leanring</a> -->
+        <div class="boxtwo">
+          <p class="learntwo">Published 21st Dec 2023</p>
+          <h6 class="learnthree">HTML & CSS foundations</h6>
+          <p class="learnfour">
+            These languages are the backbone of every <br />
+            website, defening structure, content and <br />presentation.
+          </p>
+
+          <div class="boxthree">
+            <img
+              src="/images/image-avatar.webp"
+              alt="An image of Greg Hooper"
+              class="imagetwo"
+            />
+            <p class="learnfive">Greg Hooper</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
